@@ -1,6 +1,6 @@
 /******************************************************************************/
 /*                                                                            */
-/*  Filename: BlinkTutorial.c                                                 */
+/*  Filename: BlinkTutorial.ino                                               */
 /*  Description: This file contains the blink tutorial for Teensy 3.6 with    */
 /*               some changes to play with the API for Teensy and its         */
 /*               capabilities                                                 */
