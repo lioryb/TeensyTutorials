@@ -1,10 +1,8 @@
-/******************************************************************************/
-/*                                                                            */
-/*  Filename: BlinkTutorial.ino                                               */
-/*  Description: This file contains the blink tutorial for Teensy 3.6 with    */
-/*               some changes to play with the API for Teensy and its         */
-/*               capabilities                                                 */
-/*  Origin date: March 5th, 2018                                              */
+/*  Filename: RedAndGreen.ino                                                 */
+/*  Description: This sketch fades in and out two leds, located on pins 3 & 4 */
+/*               red led is assumed to be connected to pin 4, while green led */
+/*               is assumed tp be connected to pin 3                          */
+/*  Origin date: March 6th, 2018                                              */
 /*                                                                            */
 /******************************************************************************/
 
@@ -12,7 +10,7 @@
 #define REDLED          (4)
 #define GREENLED        (3)
 #define BAUDRATE    (38400)    // Teensy 3.6 baud rate
-#define FADERATE        (5)    // miliseconds to keep LED on
+#define FADERATE        (2)    // miliseconds to keep LED on
 
 #define serialIf(cond, ...)    if(cond) { Serial.println(__VA_ARGS__); }
 
