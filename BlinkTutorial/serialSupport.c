@@ -6,8 +6,9 @@
 /*                                                                            */
 /******************************************************************************/
 
+#include "serialSupport.h"
 #include "ledRelated.h"
-#include "WConstants.h"
+#include "Arduino.h"
 
 /******************************************************************************/
 /*  Function name: startSerial                                                */
