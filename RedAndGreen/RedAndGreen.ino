@@ -1,3 +1,5 @@
+/******************************************************************************/
+/*                                                                            */
 /*  Filename: RedAndGreen.ino                                                 */
 /*  Description: This sketch fades in and out two leds, located on pins 3 & 4 */
 /*               red led is assumed to be connected to pin 4, while green led */
@@ -97,7 +99,7 @@ void setup()
     if(!(serialAvailable = startSerial(BAUDRATE)))
         digitalWrite(BUILTINLED, HIGH);   // turn on the LED. HIGH is the voltage level
     else
-        multiBlink(200, 200, 5);
+        multiBlink(100, 100, 10);
 
 }
 
